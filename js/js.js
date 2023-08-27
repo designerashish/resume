@@ -428,7 +428,7 @@ $.fancybox.defaults.hash = false;
   $("#form").submit(function () {
     $.ajax({
       type: "POST",
-      url: "submit.php",
+      url: "https://www.designerashish.org/resume/mail.php",
       data: $(this).serialize(),
     }).done(function () {
       var tl = anime.timeline({

@@ -253,7 +253,7 @@ $(function() {
   $("#form").submit(function() {
     $.ajax({
       type: "POST",
-      url: "https;//www.designerashish.org/resume/mail.php",
+      url: "https://www.designerashish.org/resume/mail.php",
       data: $(this).serialize()
     }).done(function() {
 
